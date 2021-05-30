@@ -1,7 +1,8 @@
-const Item = ({ message }) => { //propsで受け取る
+const Item = ({ message }) => {
   return (
     <li>
       {message?.user} : {message?.content}
+
     </li>
   );
 }
