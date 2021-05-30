@@ -30,8 +30,6 @@ const Room = () => {
         setMessages(messages);
       });
   }, []);
-  console.log(messages);
-  //[{content:"",user:"kei"},...]
 
   return (
     <>
